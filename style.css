@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    /* Header*/
+.Hero {
+    background-color: black;
+}
+.header-body {
+    height: 100%;
+}
+.hero-logo {
+    width: 100%;
+    height: 100%;
+    padding: 4rem;
+}
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+.heading-1{
+    font-family: Montserrat, sans-serif;
+    font-size: 4.0rem;
+    line-height: 60px;
+}
+.go1 {
+    color: #ffc107;
+}
+.go1:hover {
+    color: whitesmoke;
+}
+.go2 {
+    color: #ffc107;
+}
+.btn-link {
+    color: #ffc107;
+}
+.p1 {
+    font-size: 1.2rem;
+    color: #EEEEEE;
+    padding: 5px;
+}
+.btn-warning {
+    transition: 0.5s ease-in-out;
+    color: black !important;
+    text-align: center;
+}
+.btn-warning:hover {
+    background-color: #FFD23F !important;
+}
+
+    /* Menu*/
+.menu {
+    height: 100%;
+    background-color: black;
+}
+.menu-text {
+    text-align: center;
+}
+.card {
+    justify-content: center;
+    align-items: center;
+}
+.fa-utensils {
+    color: grey;
+}
+.fa-droplet {
+    color: deepskyblue;
+}
+.fa-leaf {
+    color: green;
+}
+.delicious, .fresh, .organic {
+    color: #EEEEEE;
+}
+/*
+.menu h1::before {
+    content: "";
+    position: relative;
+}
+.menu h1::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 3px;
+    background-color: #ffc107;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+*/
